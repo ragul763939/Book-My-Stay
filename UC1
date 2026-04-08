@@ -1,0 +1,31 @@
+/**
+ * UseCase1HotelBookingApp
+ * 
+ * This class represents the entry point of the Book My Stay application.
+ * It demonstrates how a Java program starts execution and displays
+ * a welcome message with application details.
+ * 
+ * @author Ragul
+ * @version 1.0
+ */
+public class UseCase1HotelBookingApp {
+
+    /**
+     * Main method - Entry point of the application
+     * @param args Command line arguments
+     */
+    public static void main(String[] args) {
+
+        // Display welcome message
+        System.out.println("====================================");
+        System.out.println("     Welcome to Book My Stay App    ");
+        System.out.println("     Hotel Booking System v1.0      ");
+        System.out.println("====================================");
+
+        // Inform user that application started successfully
+        System.out.println("Application started successfully.");
+
+        // End message
+        System.out.println("Thank you for using Book My Stay!");
+    }
+}
